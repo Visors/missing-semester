@@ -1,0 +1,74 @@
+miochan@KinomotoMiodeMacBook-Pro ~ % echo $SHELL
+/bin/zsh
+miochan@KinomotoMiodeMacBook-Pro ~ % cd /tmp 
+miochan@KinomotoMiodeMacBook-Pro /tmp % mkdir missing
+miochan@KinomotoMiodeMacBook-Pro /tmp % man touch
+miochan@KinomotoMiodeMacBook-Pro /tmp % cd missing
+miochan@KinomotoMiodeMacBook-Pro missing % touch semester
+miochan@KinomotoMiodeMacBook-Pro missing % ls
+semester
+miochan@KinomotoMiodeMacBook-Pro missing % echo "#!/bin/sh" > semester 
+zsh: event not found: /bin/sh
+miochan@KinomotoMiodeMacBook-Pro missing % echo "#\!/bin/sh" > semester
+miochan@KinomotoMiodeMacBook-Pro missing % cat semester 
+#!/bin/sh
+miochan@KinomotoMiodeMacBook-Pro missing % echo "curl --head --silent https://missing.csail.mit.edu" >> semester
+miochan@KinomotoMiodeMacBook-Pro missing % cat semester 
+#!/bin/sh
+curl --head --silent https://missing.csail.mit.edu
+miochan@KinomotoMiodeMacBook-Pro missing % ./semester
+zsh: permission denied: ./semester
+miochan@KinomotoMiodeMacBook-Pro missing % ls -l
+total 8
+-rw-r--r--  1 miochan  wheel  61  2 11 20:06 semester
+miochan@KinomotoMiodeMacBook-Pro missing % sh semester 
+miochan@KinomotoMiodeMacBook-Pro missing % man chmod
+miochan@KinomotoMiodeMacBook-Pro missing % chmod u+x semester 
+miochan@KinomotoMiodeMacBook-Pro missing % ./semester 
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Sat, 01 Feb 2025 18:13:13 GMT
+access-control-allow-origin: *
+etag: "679e6439-205d"
+expires: Tue, 11 Feb 2025 12:39:51 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 273D:26E56:16F1DCA:172F0A6:67AB42BE
+accept-ranges: bytes
+age: 0
+date: Tue, 11 Feb 2025 12:29:51 GMT
+via: 1.1 varnish
+x-served-by: cache-sin-wsss1830052-SIN
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1739276992.565666,VS0,VE310
+vary: Accept-Encoding
+x-fastly-request-id: b177a9c6b47537f2bd31a1a98a10eabbc51b4d25
+content-length: 8285
+
+miochan@KinomotoMiodeMacBook-Pro missing % ./semester | > last-modified.txt
+miochan@KinomotoMiodeMacBook-Pro missing % cat last-modified.txt 
+HTTP/2 200 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+last-modified: Sat, 01 Feb 2025 18:13:13 GMT
+access-control-allow-origin: *
+etag: "679e6439-205d"
+expires: Tue, 11 Feb 2025 12:39:51 GMT
+cache-control: max-age=600
+x-proxy-cache: MISS
+x-github-request-id: 273D:26E56:16F1DCA:172F0A6:67AB42BE
+accept-ranges: bytes
+date: Tue, 11 Feb 2025 12:32:12 GMT
+via: 1.1 varnish
+age: 140
+x-served-by: cache-sin-wsss1830064-SIN
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1739277132.991338,VS0,VE14
+vary: Accept-Encoding
+x-fastly-request-id: dd8e48af5a068a10e7c53143d924bd9fcf154797
+content-length: 8285
+
+miochan@KinomotoMiodeMacBook-Pro missing % 
