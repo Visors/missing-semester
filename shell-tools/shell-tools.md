@@ -85,7 +85,7 @@
 
 You can get some help from `man test`. Here are some examples:
 
-+ `[ $a -eq $b ]`: Compare two numbers.
++ `[ $a -eq $b ]`: Check if `$a` is equal to `$b`.
 + `[ $a -gt $b ]`: Check if `$a` is greater than `$b`.
 + `[ $a -lt $b ]`: Check if `$a` is less than `$b`.
 + `[ $a -ge $b ]`: Check if `$a` is greater than or equal to `$b`.
@@ -111,7 +111,7 @@ You can get some help from `man test`. Here are some examples:
 `tldr` is a command-line utility that allows you to view the simplified and condensed manual pages of commands. You can use it to get a quick overview of a command, its options, and its usage. For example, to get a quick overview of the `ls` command, you can run `tldr ls`.
 Most of utility installed by `brew` have a manual page. So `man tldr` also works.
 
-### <u>Puzzling Sample</u>
+### <u>Puzzling Example</u>
 
 ```bash
 grep foobar "$file" > /dev/null 2> /dev/null
