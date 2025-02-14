@@ -47,7 +47,7 @@
 + `diff`: Compare files line by line.
 + `find`: Search for files and directories. E.g., : `find . -name "*.txt"` find all files with the .txt extension in the current directory and its subdirectories. `fin . -name src -type d` find all directories named src in the current directory and its subdirectories. `find . -mtime -1`: Find all files modified in the last 24 hours.
 + `fd "string|regex"`: Search for files and directories using the fd utility by regex expression.
-+ `locate`: Search for files and directories using the locate utility. **On macOS, you need to create a database first. To create the database, run the following command `sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist`**
++ `locate`: Search for files and directories using the locate utility. **On macOS, you need to create a database first. To create the database, run the following command `sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist`**.
 + `history`: Display the history of commands.
 + `back-research`: Press **Control + R** to search backwards in the history.
 

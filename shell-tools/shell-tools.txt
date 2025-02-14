@@ -1,0 +1,249 @@
+miochan@KinomotoMiodeMacBook-Pro ~ % cd /tmp 
+miochan@KinomotoMiodeMacBook-Pro /tmp % touch baz
+miochan@KinomotoMiodeMacBook-Pro /tmp % touch bar
+miochan@KinomotoMiodeMacBook-Pro /tmp % touch foo
+miochan@KinomotoMiodeMacBook-Pro /tmp % ls -alht --color=always
+total 0
+drwxrwxrwt  10 root     wheel   320B  2 14 10:56 .
+-rw-r--r--   1 miochan  wheel     0B  2 14 10:56 foo
+-rw-r--r--   1 miochan  wheel     0B  2 14 10:56 bar
+-rw-r--r--   1 miochan  wheel     0B  2 14 10:56 baz
+srwx---rwx@  1 miochan  wheel     0B  2 13 22:25 logi.ghub.system_tray.connection
+srwxr-xr-x@  1 miochan  wheel     0B  2 13 22:25 com_ayangweb_EcoPaste_si.sock
+drwx------   3 miochan  wheel    96B  2 13 22:25 com.apple.launchd.Gjn5xHZAtn
+-rw-r--r--   1 root     wheel     0B  2 13 22:24 logi.ghub.updater.log
+drwxr-xr-x   2 root     wheel    64B  2 13 22:24 powerlog
+drwxr-xr-x   6 root     wheel   192B  2 13 22:24 ..
+miochan@KinomotoMiodeMacBook-Pro /tmp % vim marco.sh
+miochan@KinomotoMiodeMacBook-Pro /tmp % source marco.sh 
+miochan@KinomotoMiodeMacBook-Pro /tmp % marco
+miochan@KinomotoMiodeMacBook-Pro /tmp % cd ~
+miochan@KinomotoMiodeMacBook-Pro ~ % polo
+miochan@KinomotoMiodeMacBook-Pro /tmp % vim bug_test.sh
+miochan@KinomotoMiodeMacBook-Pro /tmp % vim tester.sh
+miochan@KinomotoMiodeMacBook-Pro /tmp % chmod +x bug_test.sh 
+miochan@KinomotoMiodeMacBook-Pro /tmp % source tester.sh 
+The script failed 149 times.
+miochan@KinomotoMiodeMacBook-Pro /tmp % cat bug.log 
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Everything went according to plan
+Something went wrong
+The error was using magic numbers
+miochan@KinomotoMiodeMacBook-Pro /tmp % 
+
+After reboot.
+
+miochan@KinomotoMiodeMacBook-Pro ~ % cd /tmp  
+miochan@KinomotoMiodeMacBook-Pro /tmp % ls
+com.apple.launchd.uWAvEsbj3x		logi.ghub.updater.log
+com_ayangweb_EcoPaste_si.sock		powerlog
+logi.ghub.system_tray.connection
+miochan@KinomotoMiodeMacBook-Pro /tmp % mkdir web
+miochan@KinomotoMiodeMacBook-Pro /tmp % cd web 
+miochan@KinomotoMiodeMacBook-Pro web % touch index.html
+miochan@KinomotoMiodeMacBook-Pro web % mkdir sub   
+miochan@KinomotoMiodeMacBook-Pro web % cd sub
+miochan@KinomotoMiodeMacBook-Pro sub % touch page{1..10}.html
+miochan@KinomotoMiodeMacBook-Pro sub % cd ..
+miochan@KinomotoMiodeMacBook-Pro web % cd ..
+miochan@KinomotoMiodeMacBook-Pro /tmp % find web -name "*.html" -print0 | xargs -0 tar vcf web.zip
+a web/index.html
+a web/sub/page1.html
+a web/sub/page7.html
+a web/sub/page6.html
+a web/sub/page9.html
+a web/sub/page10.html
+a web/sub/page5.html
+a web/sub/page4.html
+a web/sub/page8.html
+a web/sub/page3.html
+a web/sub/page2.html
+miochan@KinomotoMiodeMacBook-Pro /tmp % find . -type f -printf '%T@ %p\n' | sort -rn | head -n 1 | cut -d' ' -f 2-
+find: -printf: unknown primary or operator
+miochan@KinomotoMiodeMacBook-Pro /tmp % find . -type f -exec stat -f "%m %N" {} + | sort -rn | head -n 1 | cut -d' ' -f 2-
+./web.zip
+miochan@KinomotoMiodeMacBook-Pro /tmp % find . -type f -exec stat -f "%m %N" {} + | sort -rn | cut -d' ' -f 2-
+
+./web.zip
+./web/sub/page9.html
+./web/sub/page8.html
+./web/sub/page7.html
+./web/sub/page6.html
+./web/sub/page5.html
+./web/sub/page4.html
+./web/sub/page3.html
+./web/sub/page2.html
+./web/sub/page10.html
+./web/sub/page1.html
+./web/index.html
+./logi.ghub.updater.log
+miochan@KinomotoMiodeMacBook-Pro /tmp % find . -type f -exec stat -f "%m %N" {} + | sort -rn | head -n 1                  
+1739515824 ./web.zip
+miochan@KinomotoMiodeMacBook-Pro /tmp % find . -type f -exec stat -f "%m %N" {} + | sort -rnh | head -n 1
+sort: h:n: mutually exclusive flags
+miochan@KinomotoMiodeMacBook-Pro /tmp % find . -type f -exec stat -f "%Sm %N" -t "%Y-%m-%d %H:%M:%S" {} + | sort -rn | head -n 1
+2025-02-14 14:50:24 ./web.zip
+miochan@KinomotoMiodeMacBook-Pro /tmp % find . -type f -exec stat -f "%Sm %N" -t "%Y-%m-%d %H:%M:%S" {} + | sort -rn
+
+2025-02-14 14:50:24 ./web.zip
+2025-02-14 14:44:34 ./web/sub/page9.html
+2025-02-14 14:44:34 ./web/sub/page8.html
+2025-02-14 14:44:34 ./web/sub/page7.html
+2025-02-14 14:44:34 ./web/sub/page6.html
+2025-02-14 14:44:34 ./web/sub/page5.html
+2025-02-14 14:44:34 ./web/sub/page4.html
+2025-02-14 14:44:34 ./web/sub/page3.html
+2025-02-14 14:44:34 ./web/sub/page2.html
+2025-02-14 14:44:34 ./web/sub/page10.html
+2025-02-14 14:44:34 ./web/sub/page1.html
+2025-02-14 14:43:32 ./web/index.html
+2025-02-14 14:32:55 ./logi.ghub.updater.log
+miochan@KinomotoMiodeMacBook-Pro /tmp % 
+
